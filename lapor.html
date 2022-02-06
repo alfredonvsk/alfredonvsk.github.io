@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CyberPatrol | Report Cybercrime</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/register.css">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" href="https://www.lintas7news.com/media/2020/07/patroli-siber-icon.98afa025.png">
+</head>
+<body>
+	<nav>
+		<div class="navbar-title">
+			<div class="nav-item logo-title">
+				<a href="./"><img src="https://www.lintas7news.com/media/2020/07/patroli-siber-icon.98afa025.png" alt="logo" id="logo-banner"><span style="font-size: 2rem;font-weight: bold;">&emsp;CyberPatrol</span></a>
+			</div>
+		</div>
+
+		<div id="navbar-expanded">
+			<a href="index.html">
+				<div class="nav-item">
+					<p>Beranda</p>
+				</div>
+			</a>
+			<a href="lapor.html">
+				<div class="nav-item">
+					<p>Lapor</p>
+				</div>
+			</a>
+			<a href="statistik.html">
+				<div class="nav-item">
+					<p>Statistik</p>
+				</div>
+			</a>
+			<a href="daftar.html">
+				<div class="nav-item">
+					<p>Daftar</p>
+				</div>
+			</a>
+		
+			<a href="masuk.html">
+				<div class="nav-item">
+					<p>Masuk</p>
+				</div>
+			</a>
+		</div>
+	</nav>
+	<hr>
+	<section class="report">
+    	<div class="content">
+	        <h1>LAPORAN</h1>
+	        <div class="card-register">
+	            <form action="#">
+                    <label for="cybercrime">Jenis kejahatan siber: &emsp;</label>
+                    <select id="cybercrime" class="register-input">
+                        <option value="retas">Peretasan</option>
+                        <option value="intersep">Intersepsi Ilegal</option>
+                        <option value="deface">Deface</option>
+                        <option value="pencurian">Pencurian Elektronik</option>
+                        <option value="interference">Interference</option>
+                        <option value="tindakterlarang">Memfasilitasi Tindak Pidana Terlarang</option>
+                        <option value="pencurianidentitas">Pencurian Identitas</option>
+                        <option value="pornografi">Pornografi</option>
+                        <option value="judi">Judi</option>
+                        <option value="fitnah">Fitnah</option>
+                        <option value="pemerasan">Pemerasan</option>
+                        <option value="penipuan">Tipuan Yang Membahayakan Konsumen</option>
+                        <option value="ujarankebencian">Ujaran Kebencian</option>
+                        <option value="ancamankekerasan">Ancaman Kekerasan Terhadap Orang Lain</option>
+                        <option value="lain">Lainnya</option>
+                    </select>
+                    <br>
+	                <label for="nama">Titel Kejahatan Siber:</label>
+                    <input type="text" id="name" name="name" class="register-input" required>
+                    <br>
+                    <label for="detail">Detail: </label>
+                    <textarea id="detail" name="detail" rows="20" cols="75"></textarea>
+                    <br><br>
+                    <p>Klik "Choose File" untuk mengupload bukti kejahatan siber</p>
+                    <br>
+                    <form action="#">
+                        <input type="file" id="bukti" name="bukti">
+                    </form>
+                    <br>
+	                <p class="button-register"><button type="submit" onclick="return confirm('Laporan berhasil dibuat!')">Kirim Laporan</button></p>
+	            </form>
+	        </div>
+	    </div>
+    </section>
+	<footer>
+		<div class="footer-text">
+			Gedung Bareskrim Polri Lt. 15, Kompleks Markas Besar Kepolisian RI<br>
+			Jalan Trunojoyo No. 3, Kebayoran Baru, Jakarta Selatan, Indonesia<br>
+			Email : info@cyber.polri.go.id
+		</div>
+		<hr>
+		<div class="copyright">
+			Copyright © 2022 - CyberPatrol
+		</div>
+	</footer>
+</body>
+</html>

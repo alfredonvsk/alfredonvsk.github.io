@@ -1,0 +1,150 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', serif;
+}
+
+body {
+	color: #ffffff;
+}
+
+nav {
+    background-color: black !important;
+}
+
+.content {
+    background-color: #111;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5rem;
+}
+
+.report {
+    background-color: rgb(0, 0, 0, 0.5);
+    background-size:contain;
+    padding-bottom: 1rem;
+}
+
+h1 {
+    text-align: center;
+	font-size: 3rem;
+	text-transform: uppercase;
+	letter-spacing: 1rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.card-register {
+    background-color: rgb(0, 0, 0, 0.8);
+    width: 40%;
+    margin: 3rem auto;
+    border-radius: 5px;
+    padding: 1.5rem 2rem;
+}
+
+.card-register label {
+    display: block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.card-register .register-input {
+    width: 90%;
+    display: block;
+    margin-bottom: 1rem; 
+    padding: 0.7rem;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+}
+
+.card-register input:focus {
+    outline: none;
+}
+
+.card-register .error-warning {
+    font-style: italic;
+    display: none;
+    margin-top: -0.7rem;
+    margin-bottom: 1rem;
+    color: red;
+    font-size: 13px;
+}
+
+.card-register .register-input-error {
+    border: 2px solid red;
+}
+
+.card-register input[type=checkbox] {
+    display: inline;
+    margin-left: 1px !important;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+.card-register input[type=radio] {
+    appearance: none;
+}
+
+.card-register .gender-wrapper {
+    margin-bottom: 1rem;
+}
+
+.card-register .gender {
+    text-align: center;
+    display: inline-block;
+    margin-right: -4px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+    font-style: normal;
+    width: 50%;
+    border: 1px solid rgb(191, 191, 191);
+}
+
+.card-register .gender:hover {
+    background-color: rgb(191, 191, 191);
+    color: black;
+}
+
+.card-register #label-male {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.card-register #label-female {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-register .tac {
+    display: inline !important;
+    margin-left: 0.5rem;
+    text-transform: unset;
+}
+
+.button-register {
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+    text-align: center;
+}
+
+.button-register button {
+    width: 10rem;
+    padding: 0.7rem;
+    background-color: #cd0405;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    border: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
